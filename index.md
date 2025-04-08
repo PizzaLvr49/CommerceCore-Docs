@@ -1,5 +1,5 @@
 ---
-title: Commerce Core
+title: Documentation
 ---
 
 hello
