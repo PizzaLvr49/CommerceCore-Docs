@@ -1,1 +1,55 @@
-theme: minima
+# Theme
+remote_theme: mmistakes/minimal-mistakes@4.24.0
+
+# Site settings
+title: Your Site Title
+description: A short description of your site
+
+url: "https://yourdomain.com"
+baseurl: "/CommerceCore-Docs"
+
+author:
+  name: Your Name
+  email: your-email@example.com
+
+# Social media links
+social:
+  twitter: your-twitter-handle
+  github: your-github-username
+
+# Markdown configuration
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter_opts:
+    block:
+      line_numbers: true
+
+# Permalinks
+permalink: /:categories/:title/
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Exclude specific files or directories
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+
+# Include specific files or directories
+include:
+  - _pages
+
+# Minimal Mistakes theme settings
+minimal_mistakes_skin: dark
+
+# Other theme settings
+theme_settings:
+  header:
+    title: Your Site Title
+  footer:
+    content: "© 2025 Your Name. All rights reserved."
+  # Add additional settings as needed
